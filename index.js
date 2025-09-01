@@ -35,3 +35,15 @@ console.log(Uppercase);
 
 const MapLowerCase = Uppercase.map(name=> name.toLowerCase());
 console.log(MapLowerCase,"Using Map");
+
+
+
+// Filter keeps item if condition is true
+const numbers = [1,2,3,4,5,6,7,8,22,11,24]
+const result =numbers.filter(num=>num>8);
+console.log(result)
+
+
+// find first one 
+const firstOne = numbers.find(num=>num>10)
+console.log(firstOne)
