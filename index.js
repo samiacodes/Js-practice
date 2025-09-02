@@ -47,3 +47,11 @@ console.log(result)
 // find first one 
 const firstOne = numbers.find(num=>num>10)
 console.log(firstOne)
+// reduce 
+const sum2 = numbers.reduce((acc,curr)=> acc+curr,0);
+console.log(sum2, "Sum of numbers")
+// const emptyArr = []
+// const useInit = emptyArr.reduce((acc,curr)=> acc+curr,0)
+// console.log("useInit",useInit)
+// const noInit = emptyArr.reduce((acc,curr)=> acc+curr)
+// console.log(noInit,"No init gives error")
